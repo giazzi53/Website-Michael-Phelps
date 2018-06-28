@@ -1,0 +1,175 @@
+.fundo{
+	background-image: url(images/mp-nadando.jpg);
+	height: 300px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+nav{
+	width: 100%;
+	height: 43px;
+	background-color: #A1CDA8;
+	border-radius: 5px;
+	margin: 3px 3px 3px 0px;
+	border:1px solid black;
+	box-shadow: 3px 3px grey;
+}
+body{
+	height: 80%;
+	background-color: #F0F7EE;
+
+}
+nav ul{
+	margin:0px;	
+
+}
+nav ul li {
+	font-size: 25px;
+	display:inline;
+	float:left;
+	width:16.5%;
+	text-align: center;
+	border-width: 0px 1px 0px 0px;
+	border-style: solid;
+	padding-top:12px;
+	font: "Open Sans"
+
+
+}
+nav ul li ul {
+	display: none;
+	height: auto;									
+	margin: 0; 
+	padding: 0;
+	text-decoration:none;
+	width:auto;
+
+}		
+nav ul li:hover ul {
+    display: block;
+    border-style: none;	
+}
+nav ul li ul li {
+	display:block;
+	float:none;
+	margin: 0px;
+	padding: 0px;	
+	width: auto;
+	background-color:#D1CCDC;
+	border-width: 2px 0px 1px 1px;
+	border-radius: 2px;
+} 
+nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+nav ul li ul li a{
+	padding-top:5px;
+	margin: 0px;
+	height: 20px;
+	width: 100px;
+	border-style: none;
+}
+nav ul li ul li:hover	{
+	background-color: royalblue	;
+}
+iframe{
+	width: 100%;
+	height:100%;
+	min-width: 350px;
+}
+article{
+	display: flex;
+	margin-top: 5em;
+	flex: auto;
+	flex-flow: row wrap;
+	font-size: 20px; 
+}
+div p{
+	width:100%;
+	padding: 1em 0em 1em 0em;
+	margin: 0em;
+	background: #D1CCDC;
+	text-align: center;
+}
+h1{
+	position: relative;
+	bottom:3em;
+	left: 45em;
+
+}
+article div{
+	margin: 1em;
+	width: 30%;
+	height:400px;
+	min-width: 350px;
+	padding-bottom: 4em;
+}
+
+footer{
+	text-align: right;
+	margin-right: 20px;
+}
+
+.videos{/*
+	width: 32%;
+	font-size: 30px;
+	color: black;
+	font-family: verdana;
+	border-style: solid;
+	border-color: black;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	left: 40%;
+	background-color: #D1CCDC;
+	margin-top: 70px;
+	*/
+	background-color: #D1CCDC;
+	border: 3px solid black;
+	height: 38px;
+	width: 30%;
+	padding: 10px 10px 10px 10px;
+	border-radius: 20px;
+	position: relative;
+	top: -70px;
+	left: 35%;
+	font-size: 33px;
+	font-family: verdana;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: -20px;
+	
+}
+
+.veja{
+	border-radius: 20px;
+	border-style: solid;
+	border-color: black;
+	background-color: #D1CCDC;
+	font-size: 20px;
+	width: 200px;
+	margin: 0px;
+	position: relative;
+	left: 45%;
+	bottom:-30px;
+	margin-bottom: 60px;
+}
+.asideli{
+	width:60px;
+}
+
+.asideul{
+	width:60px;
+	padding-left: 40px;
+}
+.veja h2{
+	text-align: center;
+}
+
+.box{
+	margin-top: 60px;
+	display: flex;
+	margin-left: -310px;
+}
